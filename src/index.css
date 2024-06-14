@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.currencyselect{
+    background:#79f2a3;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    white-space:nowrap;
+    text-align:center;
+}
+
+.currencyselect select{
+    border:0;
+    color:white;
+    background:none;
+}
+
+.select-items{
+    background:red;
+}
+
+.adjbutton{
+    border-radius:50%;
+    color:white;
+    padding:10px;
+    display:inline-block;
+    width:30px;height:30px;
+    border:none;
+    text-align:center;
+    vertical-align:center;
+    line-height:0;
+    font-size:25px;
+    font-weight:bold;
+}
+.adjbutton.increase{
+    background:green;
+}
+.adjbutton.decrease{
+    background:red;
+}
